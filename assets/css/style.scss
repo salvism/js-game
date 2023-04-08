@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ba90c6;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .cat,
+  .dog {
+    img {
+      width: 100%;
+      max-width: 200px;
+    }
+    height: auto;
+    width: 100px;
+  }
+
+  .dog {
+    h1 {
+      color: #fdf4f5;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+    }
+    margin: 0 auto;
+  }
+}
